@@ -1,0 +1,120 @@
+/* Style général */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f5f5f5; /* Gris très clair */
+  color: #2c2c2c; /* Texte noir foncé */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #4a4a4a; /* Gris foncé */
+}
+
+/* Navbar */
+.navbar {
+  background-color: #2c2c2c !important; /* Noir foncé */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #f0e8e3; /* Blanc cassé/rose clair */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #8d756b; /* Rose pâle du logo */
+}
+
+/* Header Section */
+.bg-header {
+  background-color: #2c2c2c; /* Gris foncé de fond */
+  border-bottom: 4px solid #8d756b; /* Bordure rose pâle */
+}
+
+header h1 {
+  color: #f0e8e3; /* Blanc cassé */
+}
+
+header p {
+  color: #f0e8e3; /* Blanc cassé */
+}
+
+/* Services Section */
+.service-box {
+  background-color: #ffffff; /* Fond blanc */
+  border: 2px solid #d4d4d4; /* Gris clair pour les bordures */
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.service-box h3 {
+  color: #4a4a4a; /* Gris foncé pour les titres des services */
+}
+
+.service-box p {
+  color: #2c2c2c; /* Texte principal */
+}
+
+.service-box img {
+  border-radius: 50%; /* Pour conserver les images en cercle */
+  border: 2px solid #8d756b; /* Bordure des images en rose pâle */
+}
+
+/* Boutons */
+.btn-primary {
+  background-color: #8d756b; /* Rose pâle */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #c9a79a; /* Rose un peu plus foncé au survol */
+}
+
+/* Testimonials Section */
+#testimonials p {
+  color: #4a4a4a; /* Texte des témoignages en gris foncé */
+  font-style: italic;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #2c2c2c; /* Fond gris foncé */
+  color: #f0e8e3; /* Texte blanc cassé */
+}
+
+#contact h4 {
+  color: #f0e8e3; /* Blanc cassé */
+}
+
+#contact .form-control {
+  border: 2px solid #d4d4d4; /* Gris clair pour les champs de texte */
+}
+
+#contact .btn-primary {
+  background-color: #8d756b; /* Bouton rose pâle */
+  border: none;
+}
+
+#contact .btn-primary:hover {
+  background-color: #c9a79a; /* Rose foncé au survol */
+}
+
+/* Footer */
+footer {
+  background-color: #2c2c2c; /* Fond noir/gris foncé */
+  color: #f0e8e3; /* Texte blanc cassé */
+}
+
+.map-container {
+  text-align: center; /* Centrer la carte */
+  margin-top: 20px; /* Espace au-dessus de la carte */
+}
+
+.map-container iframe {
+  width: 100%; /* Full width for the iframe */
+  height: 400px; /* Fixed height for the map */
+  border: 0; /* Remove default border */
+}
