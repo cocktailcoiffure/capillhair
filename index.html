@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Studio Capill'Hair</title>
+    <title>Studio Capill'hair</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <!-- Menu de navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Studio Capill'Hair</a>
+        <a class="navbar-brand" href="#">Capill'hair</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -29,13 +29,15 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link active" aria-current="page" href="#about"
+                >À propos</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#testimonials">Testimonials</a>
+              <a class="nav-link" href="#testimonials">Témoignage</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -45,182 +47,214 @@
       </div>
     </nav>
 
-    <!-- Header Section -->
-    <header class="bg-header text-white text-center py-5">
-      <div class="container">
-        <h1>Redonner confiance et vitalité à votre chevelure</h1>
-        <p class="lead">Solutions capillaires adaptées à vos besoins</p>
-        <a href="#contact" class="btn btn-primary btn-lg">Contactez-nous</a>
-      </div>
+    <!-- Section header -->
+    <header class="header text-center">
+      <h1>Studio Capill'hair</h1>
+      <p>Perruques, Volumateurs, Compléments capillaires & Extensions</p>
+      <img
+        src="assets/header-photo.jpg"
+        alt="Capill'hair Salon"
+        class="header-img mt-4 mb-3"
+      />
+      <a href="#contact" class="btn btn-orange">Nous contacter</a>
     </header>
 
-    <!-- About Us Section -->
-    <section id="about" class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <h2>À propos de Studio Capill'Hair</h2>
-            <p>
-              La perte de cheveux peut être une source d'anxiété. Chez Studio
-              Capill'Hair, nous offrons des solutions adaptées pour restaurer
-              confiance et bien-être. Que vous ayez besoin de volumateurs,
-              perruques, ou compléments capillaires, nous avons la solution qui
-              vous convient.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="py-5">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-md-4">
-            <div class="service-box">
-              <h3>Volumateurs</h3>
-              <img
-                src="volumateurs.jpg"
-                alt="Volumateurs"
-                class="img-fluid rounded-circle"
-              />
-              <p>
-                Redonnez du volume à vos cheveux fins avec nos volumateurs sur
-                mesure en cheveux naturels ou synthétiques. Disponible en
-                fixation permanente, semi-permanente ou amovible.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <h3>Perruques</h3>
-              <img
-                src="perruques.jpg"
-                alt="Perruques"
-                class="img-fluid rounded-circle"
-              />
-              <p>
-                Nos perruques sont conçues en fibres naturelles ou synthétiques,
-                adaptées à votre style, personnalité et budget. Choisissez parmi
-                une large gamme de solutions capillaires.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <h3>Compléments Capillaires</h3>
-              <img
-                src="complements.jpg"
-                alt="Compléments capillaires"
-                class="img-fluid rounded-circle"
-              />
-              <p>
-                Optez pour un complément capillaire permanent, semi-permanent ou
-                amovible, pour un résultat naturel et confortable. Fixé par
-                dermofusion, micro-cylindre, adhésifs ou clips.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- New Services Section (Extensions, Turbans, Bonnets & Franges) -->
-    <section id="extensions-turbans" class="py-5">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-md-6">
-            <div class="service-box">
-              <h3>Extensions</h3>
-              <img
-                src="extensions.jpg"
-                alt="Extensions"
-                class="img-fluid rounded-circle"
-              />
-              <p>
-                Donnez du volume, rallongez une longueur. Extensions 100%
-                cheveux naturels avec fixations permanentes, amovibles ou par
-                clips, selon vos besoins.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="service-box">
-              <h3>Turbans, Bonnets & Franges</h3>
-              <img
-                src="turbans.jpg"
-                alt="Turbans, Bonnets & Franges"
-                class="img-fluid rounded-circle"
-              />
-              <p>
-                Turbans en fibre naturelle de bambou : hypoallergéniques, doux
-                et confortables. Franges à positionner sous le bonnet pour un
-                rendu plus naturel.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="py-5">
+    <!-- À propos de nous -->
+    <section id="about" class="about-section">
       <div class="container text-center">
-        <h2>Témoignages</h2>
-        <div class="row">
-          <div class="col-md-6">
-            <p>
-              "Grâce à Studio Capill'Hair, j'ai retrouvé confiance en moi avec
-              mes nouveaux cheveux volumineux!"
+        <h2>À propos de Capill'hair</h2>
+        <img
+          src="assets/about-photo.jpg"
+          alt="À propos"
+          class="section-img rounded-circle mt-4"
+        />
+        <p class="mt-3">
+          Forte d'une expérience de plus de 15 ans dans ce domaine et à la tête
+          d'un salon de coiffure à Sélestat, Sylvie Hanauer est experte en
+          correction capillaire. Elle et son équipe sont à votre écoute pour
+          vous offrir des solutions adaptées à vos besoins.
+        </p>
+        <p>
+          Récemment implanté à Colmar, le Studio Capill’hair propose différentes
+          techniques dernière génération en prothèses : perruques, volumateurs,
+          compléments capillaires et extensions.
+        </p>
+      </div>
+    </section>
+
+    <!-- Section services -->
+    <section id="services" class="services-section">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-4 service-item">
+            <h2>Perruques</h2>
+            <img
+              src="assets/perruques-photo.jpg"
+              alt="Perruques"
+              class="section-img rounded-circle mt-4"
+            />
+            <p class="mt-3">
+              Le Studio Capill'hair propose un large choix de perruques
+              réalisées avec des cheveux en fibres synthétiques ou naturelles,
+              adaptées à votre personnalité, vos envies, vos besoins et votre
+              budget.
             </p>
           </div>
-          <div class="col-md-6">
-            <p>
-              "Leur perruque est si naturelle, personne ne devine que je la
-              porte. Un service exceptionnel!"
+          <div class="col-md-4 service-item">
+            <h2>Volumateurs</h2>
+            <img
+              src="assets/volumateurs-photo.jpg"
+              alt="Volumateurs"
+              class="section-img rounded-circle mt-4"
+            />
+            <p class="mt-3">
+              Les volumateurs redonnent du gonflant et de la forme aux cheveux
+              fins en s'intégrant à la chevelure. Disponibles en taille standard
+              ou sur mesure en cheveux naturels ou synthétiques, avec des
+              fixations permanentes, semi-permanentes ou amovibles.
+            </p>
+          </div>
+          <div class="col-md-4 service-item">
+            <h2>Compléments capillaires</h2>
+            <img
+              src="assets/complements-photo.jpg"
+              alt="Compléments capillaires"
+              class="section-img rounded-circle mt-4"
+            />
+            <p class="mt-3">
+              Optez pour un complément capillaire permanent, semi-permanent ou
+              amovible, fixé par dermofusion, micro-cylindre, adhésifs ou clips.
+              Taille standard ou sur mesure en cheveux naturels ou synthétiques
+              pour un résultat optimal et un confort au quotidien.
+            </p>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-md-4 service-item">
+            <h2>Extensions</h2>
+            <img
+              src="assets/extensions-photo.jpg"
+              alt="Extensions"
+              class="section-img rounded-circle mt-4"
+            />
+            <p class="mt-3">
+              Extensions 100 % cheveux naturels. Fixations permanentes,
+              amovibles ou par clips, selon vos souhaits. Donnez du volume ou
+              rallongez la longueur de vos cheveux.
+            </p>
+          </div>
+          <div class="col-md-4 service-item">
+            <h2>Turbans & Bonnets</h2>
+            <img
+              src="assets/turbans-photo.jpg"
+              alt="Turbans et Bonnets"
+              class="section-img rounded-circle mt-4"
+            />
+            <p class="mt-3">
+              Turbans en fibre naturelle de bambou : hypoallergéniques, doux et
+              confortables. Franges à positionner sous le bonnet pour un rendu
+              plus naturel.
+            </p>
+          </div>
+          <div class="col-md-4 service-item">
+            <h2>Cabines individuelles & Conseils personnalisés</h2>
+            <img
+              src="assets/cabines-photo.jpg"
+              alt="Cabines individuelles"
+              class="section-img rounded-circle mt-4"
+            />
+            <p class="mt-3">
+              Le Studio Capill’hair offre des cabines individuelles et des
+              conseils personnalisés pour vous accompagner dans vos choix de
+              prothèses capillaires. Devis uniquement sur rendez-vous. Agréé
+              Sécurité Sociale, le salon pratique le tiers-payant.
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-5">
+    <!-- Section témoignage -->
+    <section id="testimonials" class="about-section">
+      <div class="container text-center">
+        <h2>Témoignage</h2>
+        <img
+          src="assets/testimonials-photo.jpg"
+          alt="Témoignage"
+          class="section-img rounded-circle mt-4"
+        />
+        <p class="mt-3">
+          En France, près de 2 millions de femmes et 50 % des hommes sont
+          touchés par la perte de cheveux. Comment retrouver son image et se
+          sentir confiant(e) lorsqu'on souffre d'une alopécie totale ou
+          partielle ? Studio Capill’hair propose des solutions modernes et
+          efficaces pour surmonter cette épreuve.
+        </p>
+      </div>
+    </section>
+
+    <!-- Section contact -->
+    <section id="contact" class="contact-section bg-light py-5">
       <div class="container text-center">
         <h2>Contactez-nous</h2>
-        <p>
-          Localisé à Colmar et Sélestat, nous sommes à votre disposition pour
-          toute consultation ou demande.
-        </p>
-        <div class="row">
-          <div class="col-md-6">
-            <h4>Studio Capill'Hair</h4>
-            <p>2 rue du Nord, 68000 Colmar<br />03 89 29 28 99</p>
+        <img
+          src="assets/contact-photo.jpg"
+          alt="Contact"
+          class="section-img rounded-circle mt-4"
+        />
+        <p class="mt-3">Deux adresses :</p>
+      </div>
+
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-6 address-section">
+            <h3>Studio Capill'hair</h3>
+            <p>
+              <strong>Adresse :</strong>
+              <a href="google.navigation:q=62+Rue+du+Nord,+68000+Colmar"
+                >62 Rue du Nord, 68000 Colmar</a
+              >
+            </p>
+            <p>
+              <strong>Téléphone :</strong>
+              <a href="tel:+33389403434">03 89 40 34 34</a>
+            </p>
           </div>
-          <div class="col-md-6">
-            <h4>Cocktail Coiffure</h4>
-            <p>14 rue d'Ébersheim, 67600 Sélestat<br />03 88 82 93 90</p>
+          <div class="col-md-6 address-section">
+            <h3>Cocktail Coiffure</h3>
+            <p>
+              <strong>Adresse :</strong>
+              <a href="google.navigation:q=14+Rue+d'Ebersheim,+67600+Sélestat"
+                >14 Rue d'Ebersheim, 67600 Sélestat</a
+              >
+            </p>
+            <p>
+              <strong>Téléphone :</strong>
+              <a href="tel:+33388619019">03 88 61 90 19</a>
+            </p>
           </div>
         </div>
-        <div class="map-container">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.4196229285153!2d7.360394315251222!3d48.07972777926118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4793e3e31bc7b481%3A0xd9fbb1b23d1b1a8e!2s2%20Rue%20du%20Nord%2C%2068000%20Colmar%2C%20France!5e0!3m2!1sen!2sus!4v1635298025001!5m2!1sen!2sus"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-          >
-          </iframe>
-        </div>
+      </div>
+
+      <!-- Google Maps embed, avec la source mise à jour -->
+      <div class="mt-4">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2650.887960229479!2d7.357575315648688!3d48.07967817921751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479166d6704f9939%3A0x849f3303d59e3cfa!2s62%20Rue%20du%20Nord%2C%2068000%20Colmar%2C%20France!5e0!3m2!1sfr!2sfr!4v1697726437111!5m2!1sfr!2sfr"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <div class="container text-center">
+        <button class="btn btn-orange mt-4">Nous contacter</button>
       </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="text-center py-3 bg-dark text-white">
-      <p>&copy; 2024 Studio Capill'Hair. Tous droits réservés.</p>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
