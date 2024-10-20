@@ -8,13 +8,16 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <!-- Menu de navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Capill'hair</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary navbar-light">
+      <div class="container">
         <button
           class="navbar-toggler"
           type="button"
@@ -37,9 +40,6 @@
               <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#testimonials">Témoignage</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
@@ -49,20 +49,19 @@
 
     <!-- Section header -->
     <header class="header text-center">
-      <h1>Studio Capill'hair</h1>
-      <p>Perruques, Volumateurs, Compléments capillaires & Extensions</p>
       <img
         src="assets/header-photo.jpg"
         alt="Capill'hair Salon"
         class="header-img mt-4 mb-3"
       />
-      <a href="#contact" class="btn btn-orange">Nous contacter</a>
+
+      <p><a href="#contact" class="btn btn-orange">Nous contacter</a></p>
     </header>
 
     <!-- À propos de nous -->
     <section id="about" class="about-section">
       <div class="container text-center">
-        <h2>À propos de Capill'hair</h2>
+        <h2>Votre Studio Capill'hair</h2>
         <img
           src="assets/about-photo.jpg"
           alt="À propos"
@@ -79,6 +78,13 @@
           techniques dernière génération en prothèses : perruques, volumateurs,
           compléments capillaires et extensions.
         </p>
+        <p class="mt-3">
+          En France, près de 2 millions de femmes et 50 % des hommes sont
+          touchés par la perte de cheveux. Comment retrouver son image et se
+          sentir confiant(e) lorsqu'on souffre d'une alopécie totale ou
+          partielle ? Studio Capill’hair propose des solutions modernes et
+          efficaces pour surmonter cette épreuve.
+        </p>
       </div>
     </section>
 
@@ -90,6 +96,11 @@
             <h2>Perruques</h2>
             <img
               src="assets/perruques-photo.jpg"
+              alt="Perruques"
+              class="section-img rounded-circle mt-4"
+            />
+            <img
+              src="assets/perruques-photo2.jpg"
               alt="Perruques"
               class="section-img rounded-circle mt-4"
             />
@@ -117,9 +128,14 @@
           <div class="col-md-4 service-item">
             <h2>Compléments capillaires</h2>
             <img
-              src="assets/complements-photo.jpg"
+              src="assets/complements-avant-photo.jpg"
               alt="Compléments capillaires"
               class="section-img rounded-circle mt-4"
+            />
+            <img
+              src="assets/complements-apres-photo.jpg"
+              alt="Compléments capillaires"
+              class="section-img after-img rounded-circle mt-4"
             />
             <p class="mt-3">
               Optez pour un complément capillaire permanent, semi-permanent ou
@@ -147,7 +163,12 @@
           <div class="col-md-4 service-item">
             <h2>Turbans & Bonnets</h2>
             <img
-              src="assets/turbans-photo.jpg"
+              src="assets/turban-photo.jpg"
+              alt="Turbans et Bonnets"
+              class="section-img rounded-circle mt-4"
+            />
+            <img
+              src="assets/bonnet-photo.jpg"
               alt="Turbans et Bonnets"
               class="section-img rounded-circle mt-4"
             />
@@ -162,7 +183,7 @@
             <img
               src="assets/cabines-photo.jpg"
               alt="Cabines individuelles"
-              class="section-img rounded-circle mt-4"
+              class="cabine-img mt-4"
             />
             <p class="mt-3">
               Le Studio Capill’hair offre des cabines individuelles et des
@@ -175,70 +196,13 @@
       </div>
     </section>
 
-    <!-- Section témoignage -->
-    <section id="testimonials" class="about-section">
-      <div class="container text-center">
-        <h2>Témoignage</h2>
-        <img
-          src="assets/testimonials-photo.jpg"
-          alt="Témoignage"
-          class="section-img rounded-circle mt-4"
-        />
-        <p class="mt-3">
-          En France, près de 2 millions de femmes et 50 % des hommes sont
-          touchés par la perte de cheveux. Comment retrouver son image et se
-          sentir confiant(e) lorsqu'on souffre d'une alopécie totale ou
-          partielle ? Studio Capill’hair propose des solutions modernes et
-          efficaces pour surmonter cette épreuve.
-        </p>
-      </div>
-    </section>
-
     <!-- Section contact -->
     <section id="contact" class="contact-section bg-light py-5">
       <div class="container text-center">
         <h2>Contactez-nous</h2>
-        <img
-          src="assets/contact-photo.jpg"
-          alt="Contact"
-          class="section-img rounded-circle mt-4"
-        />
-        <p class="mt-3">Deux adresses :</p>
       </div>
-
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-md-6 address-section">
-            <h3>Studio Capill'hair</h3>
-            <p>
-              <strong>Adresse :</strong>
-              <a href="google.navigation:q=62+Rue+du+Nord,+68000+Colmar"
-                >62 Rue du Nord, 68000 Colmar</a
-              >
-            </p>
-            <p>
-              <strong>Téléphone :</strong>
-              <a href="tel:+33389403434">03 89 40 34 34</a>
-            </p>
-          </div>
-          <div class="col-md-6 address-section">
-            <h3>Cocktail Coiffure</h3>
-            <p>
-              <strong>Adresse :</strong>
-              <a href="google.navigation:q=14+Rue+d'Ebersheim,+67600+Sélestat"
-                >14 Rue d'Ebersheim, 67600 Sélestat</a
-              >
-            </p>
-            <p>
-              <strong>Téléphone :</strong>
-              <a href="tel:+33388619019">03 88 61 90 19</a>
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Google Maps embed, avec la source mise à jour -->
-      <div class="mt-4">
+      <!-- Google Maps embed, en dehors du conteneur -->
+      <div class="my-4">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2650.887960229479!2d7.357575315648688!3d48.07967817921751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479166d6704f9939%3A0x849f3303d59e3cfa!2s62%20Rue%20du%20Nord%2C%2068000%20Colmar%2C%20France!5e0!3m2!1sfr!2sfr!4v1697726437111!5m2!1sfr!2sfr"
           width="100%"
@@ -249,11 +213,49 @@
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
-
-      <div class="container text-center">
-        <button class="btn btn-orange mt-4">Nous contacter</button>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-6 address-section">
+            <h3>Studio Capill'hair</h3>
+            <p>
+              <strong>Adresse :</strong>
+              <a href="google.navigation:q=62+Rue+du+Nord,+68000+Colmar"
+                ><i class="bi bi-geo-alt"></i> 62 Rue du Nord, 68000 Colmar</a
+              >
+            </p>
+            <p>
+              <strong>Téléphone :</strong>
+              <a href="tel:+33389403434"
+                ><i class="bi bi-telephone"></i> 03 89 40 34 34</a
+              >
+            </p>
+          </div>
+          <div class="col-md-6 address-section">
+            <h3>Cocktail Coiffure</h3>
+            <p>
+              <strong>Adresse :</strong>
+              <a href="google.navigation:q=14+Rue+d'Ebersheim,+67600+Sélestat"
+                ><i class="bi bi-geo-alt"></i> 14 Rue d'Ebersheim, 67600
+                Sélestat</a
+              >
+            </p>
+            <p>
+              <strong>Téléphone :</strong>
+              <a href="tel:+33388619019"
+                ><i class="bi bi-telephone"></i> 03 88 61 90 19</a
+              >
+            </p>
+          </div>
+        </div>
       </div>
     </section>
+
+    <!-- Mentions légales -->
+    <footer class="bg-secondary text-white text-center py-4">
+      <div class="container">
+        <p>© 2024 Studio Capill'hair. Tous droits réservés.</p>
+      </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   </body>

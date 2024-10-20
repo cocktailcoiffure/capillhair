@@ -4,31 +4,36 @@ body {
 }
 
 .header {
-  background-color: #b0b0b0; /* Couleur gris inspirée du flyer */
+  background-color: #897b72; /* Couleur gris inspirée du flyer */
   color: white; /* Texte en blanc */
   text-align: center;
   padding: 100px 0;
-  border-bottom: 5px solid #b0b0b0; /* Bordure gris inspirée du flyer */
+}
+
+.after-img {
+  margin-left: -35px;
 }
 
 .header-img {
-  border: 5px solid #b0b0b0; /* Bordure gris inspirée du flyer */
   padding: 10px;
-  border-radius: 10px;
   max-width: 100%;
   height: auto;
 }
 
 .section-img {
-  border: 5px solid #b0b0b0; /* Bordure gris inspirée du flyer */
-  padding: 10px;
+  border: 5px solid #897b72; /* Bordure gris inspirée du flyer */
   border-radius: 50%; /* Image ronde */
   max-width: 150px; /* Limiter la taille des images */
   height: auto;
 }
+.cabine-img {
+  border: 5px solid #897b72; /* Bordure gris inspirée du flyer */
+  max-width: 200px; /* Limiter la taille des images */
+  height: auto;
+}
 
 .navbar-light {
-  background-color: #b0b0b0; /* Couleur gris pour le menu */
+  background-color: #897b72 !important; /* Couleur gris pour le menu */
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -59,11 +64,20 @@ body {
 }
 
 .btn-orange {
-  background-color: #ff8c00; /* Couleur orange pour le bouton */
+  background-color: #ac786a; /* Couleur orange pour le bouton */
   color: white;
   border: none;
 }
 
 .btn-orange:hover {
-  background-color: #ff7f00; /* Couleur orange foncé au survol */
+  background-color: #3c2b24; /* Couleur orange foncé au survol */
+}
+/* Styles pour les liens d'adresse et de téléphone */
+.address-section a {
+  color: #3c2b24; /* Couleur gris */
+  text-decoration: none; /* Supprimer le soulignement */
+}
+
+.address-section a:hover {
+  text-decoration: underline; /* Souligner au survol si souhaité */
 }
