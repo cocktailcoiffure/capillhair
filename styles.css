@@ -7,7 +7,7 @@ body {
   background-color: #897b72; /* Couleur gris inspirée du flyer */
   color: white; /* Texte en blanc */
   text-align: center;
-  padding: 100px 0;
+  padding-bottom: 30px;
 }
 
 .after-img {
@@ -15,7 +15,7 @@ body {
 }
 
 .header-img {
-  padding: 10px;
+  padding: 0 10px;
   max-width: 100%;
   height: auto;
 }
